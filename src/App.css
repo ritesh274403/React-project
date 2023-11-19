@@ -1,0 +1,118 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .top-bar{
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .top-bar > img{
+    width: 100px;
+    height: 30px;
+  }
+  
+  .top-bar > input{
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+  }
+  
+  .top-bar > button{
+    height: 30px;
+    background-color: red;
+  }
+  
+  .nav-bar{
+    margin-top: 20px;
+  }
+  .nav-bar > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    background-color: darkblue;
+    height: 50px;
+    align-items: center;
+  }
+  
+  .nav-bar > ul >li{
+    color: white;
+  }
+  
+  .image-crousel > img{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+  }
+  
+  .offer-tag{
+    margin-top: 40px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .offer-tag>button{
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .offer-card{
+    /* background-color: red; */
+    width: 210px;
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: solid;
+  }
+  
+  .offer-card>img{
+    width: 100px;
+    height: 80px;
+    margin-left: 60px;
+  }
+  
+  .offer-card>h5{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .offer-card>h6{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .offer-card>button{
+    height: 30px;
+    width:max-content;
+    margin: auto;
+    background-color: red;
+  }
+  
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .deal-offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .deal-offer>h1{
+    margin-top: 20px;
+    text-decoration:underline;
+  }
